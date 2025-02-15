@@ -11,6 +11,13 @@ https://cloud.mongodb.com/v2/66efa1a932a8105c10294352#/overview
 Google アカウントでサインイン
 Cluster0 の Collection
 
+Git へ push 時に下記が出た場合は、`git config http.postBuffer 524288000` を実行
+
+```
+error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+send-pack: unexpected disconnect while reading sideband packet
+```
+
 
 npm install mongoose
 
